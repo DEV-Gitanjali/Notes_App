@@ -54,7 +54,7 @@ function addNewNote(text = '') {
 
 function updateLS() {
     const notesText = document.querySelectorAll('textarea')
-
+ 
     const notes = []
 
     notesText.forEach(note => notes.push(note.value))
